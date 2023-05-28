@@ -1,17 +1,77 @@
+header {
+    font-size: 1rem;
+    padding: 1rem;
+    margin-left: 17%;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 125px 125px 125px 125px 125px 125px 125px 125px;
+    grid-template-columns: 125px 125px 125px 125px 125px 125px 125px 125px;
+    justify-content: center;
+    
+}
+
+section {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #e9eff1;
+    border-radius: 0.3em;
+}
+
+.lowerBounds {
+    grid-row: 1 / 9;
+    grid-column: 1 / 5;
+}
+
+.histogram {
+    grid-row: 1 / 6;
+    grid-column: 5 / 9;
+}
+
+.gradeSubmit {
+    grid-row: 6 / 9;
+    grid-column: 5 / 9;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    color: #CC0633;
+    color: #b72228;
+    margin-top: 0;
 }
 
-.container {
-    border-style: solid;
-    display: flex;
-    justify-content: space-evenly;
+.lowerBounds td {
+    padding: 0.8em;
 }
 
-.lowerBounds, .histogram, .newGrade {
-    background-color: gray;
+.lowerBounds input {
+    height: 30px;
+    width: 75px;
+    text-align: right;
+    margin-left: 6em;
+}
+
+.gradeSubmit input {
+    height: 30px;
+    width: 175px;
+    text-align: center;
+}
+
+.gradeSubmit button {
+    height: 30px;
+    margin: 10px;
+}
+
+.histogram td {
+    padding: 0.5em;
 }
