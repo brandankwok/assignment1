@@ -16,39 +16,39 @@
         <section class="lowerBounds">
             <h2>Lower Bounds</h2>
             <table>
-                <tr><td>Max</td><td><input type="number" min="0" max="100" value="100.00" step="0.01"></td></tr>
-                <tr><td>A+</td><td><input type="number" min="0" max="100" value="95.00" step="0.01"></td></tr>
-                <tr><td>A</td><td><input type="number" min="0" max="100" value="90.00" step="0.01"></td></tr>
-                <tr><td>A-</td><td><input type="number" min="0" max="100" value="85.00" step="0.01"></td></tr>
-                <tr><td>B+</td><td><input type="number" min="0" max="100" value="80.00" step="0.01"></td></tr>
-                <tr><td>B</td><td><input type="number" min="0" max="100" value="75.00" step="0.01"></td></tr>
-                <tr><td>B-</td><td><input type="number" min="0" max="100" value="70.00" step="0.01"></td></tr>
-                <tr><td>C+</td><td><input type="number" min="0" max="100" value="65.00" step="0.01"></td></tr>
-                <tr><td>C</td><td><input type="number" min="0" max="100" value="60.00" step="0.01"></td></tr>
-                <tr><td>C-</td><td><input type="number" min="0" max="100" value="55.00" step="0.01"></td></tr>
-                <tr><td>D</td><td><input type="number" min="0" max="100" value="50.00" step="0.01"></td></tr>
-                <tr><td>F</td><td><input type="number" min="0" max="100" value="0.00" step="0.01"></td></tr>
+                <tr><td>Max</td><td><input class="bounds" id="max" type="number" min="0" max="100" value="100.00" step="0.01"></td></tr>
+                <tr><td>A+</td><td><input class="bounds" id="Ap" type="number" min="0" max="100" value="95.00" step="0.01"></td></tr>
+                <tr><td>A</td><td><input class="bounds" id="A" type="number" min="0" max="100" value="90.00" step="0.01"></td></tr>
+                <tr><td>A-</td><td><input class="bounds" id="Am" type="number" min="0" max="100" value="85.00" step="0.01"></td></tr>
+                <tr><td>B+</td><td><input class="bounds" id="Bp" type="number" min="0" max="100" value="80.00" step="0.01"></td></tr>
+                <tr><td>B</td><td><input class="bounds" id="B" type="number" min="0" max="100" value="75.00" step="0.01"></td></tr>
+                <tr><td>B-</td><td><input class="bounds" id="Bm" type="number" min="0" max="100" value="70.00" step="0.01"></td></tr>
+                <tr><td>C+</td><td><input class="bounds" id="Cp" type="number" min="0" max="100" value="65.00" step="0.01"></td></tr>
+                <tr><td>C</td><td><input class="bounds" id="C" type="number" min="0" max="100" value="60.00" step="0.01"></td></tr>
+                <tr><td>C-</td><td><input class="bounds" id="Cm" type="number" min="0" max="100" value="55.00" step="0.01"></td></tr>
+                <tr><td>D</td><td><input class="bounds" id="D" type="number" min="0" max="100" value="50.00" step="0.01"></td></tr>
+                <tr><td>F</td><td><input class="bounds" id="F" type="number" min="0" max="100" value="0.00" step="0.01"></td></tr>
             </table>
         </section>
         <section class="histogram">
             <h2>Histogram</h2>
             <table>
-                <tr><td>A+</td></tr>
-                <tr><td>A</td></tr>
-                <tr><td>A-</td></tr>
-                <tr><td>B+</td></tr>
-                <tr><td>B</td></tr>
-                <tr><td>B-</td></tr>
-                <tr><td>C+</td></tr>
-                <tr><td>C</td></tr>
-                <tr><td>C-</td></tr>
-                <tr><td>D</td></tr>
-                <tr><td>F</td></tr>
+                <tr><td class="histogram">A+</td><td class="output"></td></tr>
+                <tr><td class="histogram">A</td><td class="output"></td></tr>
+                <tr><td class="histogram">A-</td><td class="output"></td></tr>
+                <tr><td class="histogram">B+</td><td class="output"></td></tr>
+                <tr><td class="histogram">B</td><td class="output"></td></tr>
+                <tr><td class="histogram">B-</td><td class="output"></td></tr>
+                <tr><td class="histogram">C+</td><td class="output"></td></tr>
+                <tr><td class="histogram">C</td><td class="output"></td></tr>
+                <tr><td class="histogram">C-</td><td class="output"></td></tr>
+                <tr><td class="histogram">D</td><td class="output"></td></tr>
+                <tr><td class="histogram">F</td><td class="output"></td></tr>
             </table>
         </section>
         <section class="gradeSubmit">
             <form>
-                New Grade: <input id="ngrade" type="number">
+                New Grade: <input id="ngrade" type="number" value="0.00">
                 <button id="submit" type="button">Submit</button>
             </form>
         </section>

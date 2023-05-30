@@ -73,7 +73,12 @@ h2 {
     margin: 10px;
 }
 
-.histogram td {
+.histogram {
     padding: 0.65em;
     font-size: 17px;
+}
+
+.output {
+    font-size: 17px;
+    padding-left: 5em;
 }
