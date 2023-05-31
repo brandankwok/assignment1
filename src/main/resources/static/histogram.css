@@ -1,11 +1,7 @@
 header {
     font-size: 1rem;
     padding: 1rem;
-    text-align: center;
-}
-
-header h1 {
-    padding-right:650px;
+    margin-left: 17%;
 }
 
 main {
